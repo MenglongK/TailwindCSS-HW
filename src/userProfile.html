@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="bg-white dark:bg-gray-900 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="./index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <i class="fa-solid fa-store text-2xl text-blue-900"></i>
+          </a>
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <button
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              <a href="./register.html">Register</a>
+            </button>
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="./index.html"
+                  class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./userProfile.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >User Profile</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container mx-auto px-4 py-8 max-w-4xl">
+        <div>
+          <h1>Hello</h1>
+        </div>
+          <div class="p-6 sm:p-10">
+            <section class="mb-8">
+              <h2
+                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2 text-primary-500"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                About Me
+              </h2>
+              <p class="text-gray-600">
+                Passionate web developer with over 8 years of experience
+                creating responsive and user-friendly web applications.
+                Specialized in front-end development with expertise in React,
+                Vue, and Angular frameworks. Strong problem-solving skills and a
+                keen eye for design.
+              </p>
+            </section>
+            <section class="mb-8">
+              <h2
+                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2 text-primary-500"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Contact Information
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-3 text-primary-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <span class="text-gray-600">alex.johnson@example.com</span>
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-3 text-primary-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    ></path>
+                  </svg>
+                  <span class="text-gray-600">(123) 456-7890</span>
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-3 text-primary-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                    ></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                  <span class="text-gray-600">San Francisco, CA</span>
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-3 text-primary-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    ></path>
+                  </svg>
+                  <span class="text-gray-600">alexjohnson.dev</span>
+                </div>
+              </div>
+            </section>
+            <section class="mb-8">
+              <h2
+                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2 text-primary-500"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
+                Skills
+              </h2>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >HTML5</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >CSS3</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >JavaScript</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >TypeScript</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >React</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Vue.js</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Angular</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Node.js</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Express</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >MongoDB</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Git</span
+                >
+                <span
+                  class="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium"
+                  >Responsive Design</span
+                >
+              </div>
+            </section>
+            <section class="mb-8">
+              <h2
+                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2 text-primary-500"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                Experience
+              </h2>
+              <div class="space-y-4">
+                <div class="border-l-4 border-primary-500 pl-4">
+                  <h3 class="text-lg font-semibold text-gray-800">
+                    Senior Frontend Developer
+                  </h3>
+                  <p class="text-primary-600 font-medium">TechCorp Inc.</p>
+                  <p class="text-gray-500 text-sm">2020 - Present</p>
+                  <p class="text-gray-600 mt-2">
+                    Led the frontend development team in creating responsive web
+                    applications using React and TypeScript. Implemented CI/CD
+                    pipelines and improved performance by 40%.
+                  </p>
+                </div>
+                <div class="border-l-4 border-primary-300 pl-4">
+                  <h3 class="text-lg font-semibold text-gray-800">
+                    Web Developer
+                  </h3>
+                  <p class="text-primary-600 font-medium">
+                    Digital Solutions LLC
+                  </p>
+                  <p class="text-gray-500 text-sm">2017 - 2020</p>
+                  <p class="text-gray-600 mt-2">
+                    Developed and maintained client websites using Vue.js and
+                    Node.js. Collaborated with designers to implement responsive
+                    UI/UX designs.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h2
+                class="text-2xl font-semibold text-gray-800 mb-4 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-2 text-primary-500"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                  <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                </svg>
+                Interests
+              </h2>
+              <p class="text-gray-600">
+                When not coding, I enjoy hiking, photography, playing guitar,
+                and exploring new coffee shops. I'm also passionate about
+                open-source contributions and mentoring junior developers.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div
+          x-data="{ footerNavs: [
+    { href: 'javascript:void()', name: 'Terms' },
+    { href: 'javascript:void()', name: 'License' },
+    { href: 'javascript:void()', name: 'Privacy' },
+    { href: 'javascript:void()', name: 'About us' }
+]}"
+        >
+          <footer class="pt-10">
+            <div class="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+              <div class="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
+                <i class="fa-solid fa-store text-2xl text-blue-900"></i>
+                <p>
+                  Nulla auctor metus vitae lectus iaculis, vel euismod massa
+                  efficitur.
+                </p>
+                <div
+                  class="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0"
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
+                  >
+                    Let's get started
+                  </a>
+                  <a
+                    href="javascript:void(0)"
+                    class="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex"
+                  >
+                    Get access
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="w-5 h-5"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="mt-10 py-10 border-t items-center justify-between sm:flex"
+              >
+                <p>© 2022 Float UI Inc. All rights reserved.</p>
+                <ul
+                  class="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0"
+                >
+                  <template x-for="(item, idx) in footerNavs" :key="idx">
+                    <li class="text-gray-800 hover:text-gray-500 duration-150">
+                      <a x-bind:href="item.href" x-text="item.name"></a>
+                    </li>
+                  </template>
+                </ul>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
